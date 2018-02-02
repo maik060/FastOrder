@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "856637345579",
+    "firebase_url": "https://fastorder-51b54.firebaseio.com",
+    "project_id": "fastorder-51b54",
+    "storage_bucket": "fastorder-51b54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856637345579:android:1cdf51792a6e05ba",
+        "android_client_info": {
+          "package_name": "com.example.android.fastorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856637345579-0ajd2e6gg8i2uofno95oce9qfqbouv3s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.fastorder",
+            "certificate_hash": "d0b409268c094e31f1cf5ed74fa5f008a51c443f"
+          }
+        },
+        {
+          "client_id": "856637345579-a1g91sr6b7s377g7en1bt0upk6h73a7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPiHVvbVOdK-L32YeoY86au7HHRGEsvmI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856637345579-a1g91sr6b7s377g7en1bt0upk6h73a7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
