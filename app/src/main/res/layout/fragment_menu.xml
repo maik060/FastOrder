@@ -4,11 +4,12 @@
              android:layout_height="match_parent"
              tools:context="com.example.android.fastorder.PanelMenuFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ListView
+        android:id="@+id/android:list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="menu fragment"/>
+        android:layout_height="match_parent">
+
+    </ListView>
+
 
 </LinearLayout>
