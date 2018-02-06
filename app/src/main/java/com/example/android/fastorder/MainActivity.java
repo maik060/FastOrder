@@ -14,7 +14,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ViewPager viewPager = (ViewPager)findViewById(R.id.viewpager);
+        createMainPanel();
+
+    }
+
+    private void createMainPanel() {
+        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
 
         PanelFragmentAdapter panelFragmentAdapter = new PanelFragmentAdapter(getSupportFragmentManager(),
                 MainActivity.this);
@@ -23,8 +28,5 @@ public class MainActivity extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
-
-
-
     }
 }
