@@ -9,8 +9,8 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.android.fastorder.PanelMenuFragment;
-import com.example.android.fastorder.PanelOrderFragment;
+import com.example.android.fastorder.panelItems.PanelMenuFragment;
+import com.example.android.fastorder.panelItems.PanelOrderFragment;
 import com.example.android.fastorder.R;
 
 public class MainActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.example.android.fastorder;
+package com.example.android.fastorder.panelItems;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,6 +8,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.Toast;
+
+import com.example.android.fastorder.MenuItem;
+import com.example.android.fastorder.MenuItemAdapter;
+import com.example.android.fastorder.R;
 
 import java.util.ArrayList;
 
