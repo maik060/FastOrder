@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
         PanelFragmentAdapter panelFragmentAdapter = new PanelFragmentAdapter(getSupportFragmentManager(),
                 MainActivity.this);
+        viewPager.setOffscreenPageLimit(2);
         viewPager.setAdapter(panelFragmentAdapter);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
