@@ -13,6 +13,17 @@ import java.util.ArrayList;
 
 
 public class PanelMenuFragment extends ListFragment {
+
+    public static PanelMenuFragment newInstance() {
+
+        Bundle args = new Bundle();
+
+        PanelMenuFragment fragment = new PanelMenuFragment();
+        fragment.setArguments(args);
+        return fragment;
+    }
+
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

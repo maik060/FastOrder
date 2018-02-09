@@ -11,6 +11,16 @@ import android.view.ViewGroup;
 
 
 public class PanelOrderFragment extends Fragment {
+
+    public static PanelOrderFragment newInstance() {
+
+        Bundle args = new Bundle();
+
+        PanelOrderFragment fragment = new PanelOrderFragment();
+        fragment.setArguments(args);
+        return fragment;
+    }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
